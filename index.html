@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benvenuto nel tuo nuovo progetto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between p-4 sm:p-8">
+  <!-- Header -->
+  <header class="max-w-3xl mx-auto w-full pt-6 flex items-center justify-between">
+    <div class="flex items-center space-x-3">
+      <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-500 to-violet-400 flex items-center justify-center shadow-lg shadow-indigo-500/20">
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+        </svg>
+      </div>
+      <div>
+        <h1 class="font-bold text-lg leading-tight tracking-tight">Antigravity</h1>
+        <p class="text-xs text-slate-400">Pronto a creare</p>
+      </div>
+    </div>
+    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+      <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse"></span>
+      Online
+    </span>
+  </header>
+
+  <!-- Main Hero -->
+  <main class="max-w-3xl mx-auto w-full py-12 flex-1 flex flex-col justify-center">
+    <div class="text-center space-y-4">
+      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-medium bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">
+        <span>✨ Il tuo spazio di sviluppo è pronto</span>
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">
+        Cosa desideri <span class="bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-400 bg-clip-text text-transparent">costruire</span> oggi?
+      </h2>
+      <p class="text-slate-400 max-w-xl mx-auto text-sm sm:text-base leading-relaxed">
+        Descrivi semplicemente la tua idea nella chat. Posso creare applicazioni web complete, siti vetrina, giochi interattivi, strumenti di produttività e molto altro.
+      </p>
+    </div>
+
+    <!-- Suggerimenti / Card idee -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-5 hover:border-indigo-500/40 transition">
+        <div class="w-8 h-8 rounded-lg bg-indigo-500/10 text-indigo-400 flex items-center justify-center mb-3">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-white text-sm mb-1">Web App & Tool</h3>
+        <p class="text-xs text-slate-400">Dashboard, to-do list, convertitori, tracker di spese o calcolatori interattivi.</p>
+      </div>
+
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-5 hover:border-purple-500/40 transition">
+        <div class="w-8 h-8 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center mb-3">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-white text-sm mb-1">Siti & Landing Page</h3>
+        <p class="text-xs text-slate-400">Pagine per portfolio, ristoranti, eventi o startup con grafica moderna e reattiva.</p>
+      </div>
+
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-5 hover:border-pink-500/40 transition">
+        <div class="w-8 h-8 rounded-lg bg-pink-500/10 text-pink-400 flex items-center justify-center mb-3">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-white text-sm mb-1">Giochi & Quiz</h3>
+        <p class="text-xs text-slate-400">Piccoli giochi arcade (Snake, Tris, Tetris, memory) o quiz a domande per divertirsi.</p>
+      </div>
+    </div>
+
+    <!-- Come funziona -->
+    <div class="mt-8 bg-slate-900/40 border border-slate-800/80 rounded-2xl p-5 text-xs text-slate-400 space-y-2">
+      <div class="font-medium text-slate-300 flex items-center gap-1.5">
+        <svg class="w-4 h-4 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        </svg>
+        <span>Come funziona:</span>
+      </div>
+      <p>1. Scrivimi in chat cosa vuoi realizzare.</p>
+      <p>2. Io scriverò il codice e aggiornerò l'anteprima in tempo reale.</p>
+      <p>3. Puoi chiedermi qualsiasi modifica o nuova funzionalità quando vuoi!</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="max-w-3xl mx-auto w-full pt-6 pb-2 text-center text-xs text-slate-500 border-t border-slate-800/60">
+    Pronto per iniziare. Scrivi la tua richiesta in chat!
+  </footer>
+</body>
+</html>
